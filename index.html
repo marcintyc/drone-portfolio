@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twoje Imię - Portfolio Dronowe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Keep Droning</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">O Mnie</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Usługi</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-video-bg">
+                 <video autoplay loop muted playsinline poster="path/to/poster-image.jpg">
+                    <source src="morze.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-content">
+                <h1>Filmowanie z powietrza, które zapiera dech</h1>
+                <p>Twoja perspektywa, nasza pasja. Profesjonalne usługi dronowe.</p>
+                <a href="#portfolio" class="cta-button">Zobacz moje prace</a>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <h2>Portfolio</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Wszystko</button>
+                <button class="filter-btn" data-filter="nieruchomosci">Nieruchomości</button>
+                <button class="filter-btn" data-filter="artystyczne">Artystyczne</button>
+                <button class="filter-btn" data-filter="biznes">Biznes</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="nieruchomosci">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Luksusowa Rezydencja</h3>
+                    <p>Prezentacja nieruchomości w celach sprzedażowych.</p>
+                </div>
+                <div class="portfolio-item" data-category="artystyczne">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Zimowy Krajobraz</h3>
+                    <p>Kinowe ujęcia piękna natury.</p>
+                </div>
+                <div class="portfolio-item" data-category="biznes">
+                     <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Hotel SPA - Film Promocyjny</h3>
+                    <p>Dynamiczny klip dla sektora hotelarskiego.</p>
+                </div>
+                 <div class="portfolio-item" data-category="nieruchomosci">
+                    <div class="video-container">
+                       <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                   <h3>Nowoczesne Osiedle Mieszkaniowe</h3>
+                   <p>Prezentacja inwestycji deweloperskiej.</p>
+               </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <img src="https://via.placeholder.com/300" alt="Zdjęcie profilowe" class="profile-pic">
+                <div class="about-text">
+                    <h2>O mnie</h2>
+                    <p>Wszystko zaczęło się od fascynacji technologią i fotografią. Dron dał mi możliwość połączenia tych dwóch światów i spojrzenia na rzeczywistość z perspektywy, która na co dzień jest niedostępna. Dziś moją misją jest dostarczanie klientom unikalnych ujęć, które nie tylko dokumentują, ale opowiadają historię i wywołują emocje.</p>
+                    <h4>Mój sprzęt:</h4>
+                    <p>DJI Mavic 3 Pro, Sony A7IV, oprogramowanie DaVinci Resolve Studio.</p>
+                    <h4>Uprawnienia:</h4>
+                    <p>Certyfikat Kompetencji Pilota BSP (A1/A3, A2).</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="services" class="services-section">
+            <h2>Usługi</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <h3>Nieruchomości</h3>
+                    <p>Kompleksowe filmy i zdjęcia z powietrza, które przyspieszają sprzedaż i wynajem nieruchomości.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Filmy promocyjne</h3>
+                    <p>Dynamiczne ujęcia dla Twojej firmy, hotelu, restauracji czy eventu. Pokaż się z najlepszej strony.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Ujęcia kinowe</h3>
+                    <p>Artystyczne i kreatywne ujęcia do teledysków, filmów dokumentalnych i reklam.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Skontaktuj się</h2>
+            <p>Masz pomysł na projekt? Porozmawiajmy o tym!</p>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Twoje imię" required>
+                <input type="email" name="email" placeholder="Twój e-mail" required>
+                <textarea name="message" rows="5" placeholder="Twoja wiadomość" required></textarea>
+                <button type="submit" class="cta-button">Wyślij wiadomość</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Twoje Imię i Nazwisko. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
