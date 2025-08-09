@@ -1,0 +1,6 @@
+/* Custom tweaks complementary to Tailwind */
+html { scroll-behavior: smooth; }
+
+/* Improve details/summary affordance */
+details > summary { list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
